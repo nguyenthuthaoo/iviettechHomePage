@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>iViettech-Trung tâm đào tạo Lập trình viên chuyên nghiệp
+	|Chuyên đào tạo các khóa lập trình Java, .Net, Android, IOS, PHP, Tester</title>
+	<link rel="shortcut icon"  href="Images\favicon.ico">
+	<link rel="stylesheet" type="text/css" href="CSS\main.css">
+</head>
+<script type="text/javascript">
+  window.onload = function(){
+    setTimeout("switch_Image()", 3500);
+  }
+  var current = 1;
+  var num_image = 2;
+  function switch_Image(){
+      current++;
+      document.images['image'].src ='Images/banner-' + current + '.jpg';
+     if(current < num_image){
+       setTimeout("switch_Image()", 3500);
+     }else if(current == num_image){
+       current = 0;
+       setTimeout("switch_Image()", 3500);
+     }
+ }
+</script>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<a href="#"><img  src="Images/logo_iviettech.png" alt="Logo ivietetchs"></a>
+				<ul class="menu clearfix">
+					<li ><a href="#" class="home">Trang chủ</a></li>
+					<li>
+						<a href="#">Các khóa học lập trình</a>
+						<ul>
+							<li><a href="#">Chuyên nghiệp</a>
+								<ul>
+									<li><a href="https://iviettech.vn/chuong-trinh-dao-tao/43-lap-trinh-android.html">Lập Trình Android</a></li>
+									<li><a href="#">Lập Trình IOS-Swift</a></li>
+									<li><a href="#">Kiểm thử chuyên nghiệp</a></li>
+									<li><a href="#">Lập Trình PHP & Lavarel</a></li>
+									<li><a href="#">Lập Trình Front End-New</a></li>
+									<li><a href="#">Lập Trình Java từ A-Z</a></li>
+									<li><a href="#">Lập Trình .NET từ A-Z</a></li>		
+									<li><a href="#">Lập Trình viên chuyên nghiệp</a></li>			
+								</ul>
+							</li>
+							<li><a href="#">Chuyên sâu</a>
+								<ul>
+									<li><a href="https://itexpert.vn/khoa-hoc/phan-tich-nghiep-vu-chuyen-nghiep.html">Phân tích nghiệp vụ (BA)</a></li>
+									<li><a href="#">Kỹ sư trí tuệ nhân tạo</a></li>
+									<li><a href="#">DevOps Engineer</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Thiết kế đồ họa</a>
+								<ul>
+									<li><a href="#">Thiết kế đồ họa</a></li>
+									<li><a href="#">Thiết kế UI/UX</a></li>
+									<li><a href="#">Thiết kế nội thất</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Cấp tốc</a></li>
+							<li><a href="#">Các khóa khác</a></li>
+						</ul>
+					</li>
+					<li><a href="#" title="Đăng ký học">Đăng ký học</a></li>
+					<li><a href="#">Việc làm</a></li>
+					<li><a href="#">iVietTech</a></li>
+					<li><a href="#">Trang vàng HV</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav">
+			<a href="https://iviettech.vn/dang-ky" ><img name="image" src="Images/banner-1.jpg" alt="" ></a>
+		</div>
+		<div id="wp-content">
+			<div class="program">
+					<div id="form_left">
+					<form name="form_registration" action="#" method="get">
+						<img src="Images/pen.png" alt="Đăng ký học">
+						<p>ĐĂNG KÝ HỌC</p>
+						<input id="name" type="text" name="name" placeholder="Họ và tên">
+						<input type="text" name="email" placeholder="Email">
+						<input type="text" name="phone" placeholder="Điện thoại">
+						<select>
+							<option value="#">Chọn khóa học</option>
+							<option value="#">Lập trình Android</option>
+							<option value="#">Kiểm thử chuyên nghiệp</option>
+							<option value="#">Lập trình PHP $ Mysql</option>
+							<option value="#">Lập trình Front-End</option>
+						</select>
+						<input id="your_mess"type="text" name="mess" placeholder="Lời nhắn của bạn"><br>
+						<input id="submit" type="submit" name="submit" value="Đăng kí học" >
+					</fonm>
+					</div>
+					<div id="form_right">
+						<form >							
+						<a  href="#"><img  class="img_hat" src="Images/hat.png" alt="Chương trình đào tạo"></a>
+						<p class="educate"><a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a></p>
+						<ul id="ul_top_hypers">
+							<li>
+								<div class="subjects">
+									<a href="#"><img src="Images/php.jpg" alt="Lập trình PHP & Lavarel"></a><br>
+									<a href="#"><b>Lập Trình PHP &</b></a><br>
+									<a  href="#"><b id="kotlin">Laravel</b></a><br>
+									<p>Thời gian:6 tháng</p>
+									<p>Suất học:Tối 3-5-7</p>
+								</div>
+							</li>
+							<li>
+								<div class="subjects">
+									<a href="#"><img src="Images/ktmp.jpg" alt="Kiểm thử phần mềm"></a><br>
+									<a href="#"><b>Kiểm Thử Phần</b></a><br>
+									<a  href="#"><b id="kotlin">Mềm</b></a><br>
+									<p>Thời gian:3 tháng</p>
+									<p>Suất học:Tối 2-4-6</p>
+								</div>
+							</li>	
+							<li>
+								<div class="subjects">
+									<a href="#"><img src="Images/java.jpg" alt="Lập trình jva từ A-Z"></a><br>
+									<a href="#"><b>Lập Trình Java Từ</b></a><br>
+									<a  href="#"><b id="kotlin">A-Z</b></a><br>
+									<p>Thời gian:6 tháng</p>
+									<p>Suất học:Tối 2-4-6</p>
+								</div>
+							</li>
+							<li>
+								<div class="subjects">
+									<a href="https://iviettech.vn/chuong-trinh-dao-tao/43-lap-trinh-android.html"><img src="Images/android.jpg" alt="Lập trình Android"></a><br>
+									<a href="#"><b>Lập Trình Android-</b></a><br>
+									<a  href="#"><b id="kotlin">Kotlin</b></a><br>
+									<p>Thời gian:4 tháng</p>
+									<p>Suất học:Tối 2-4-6</p>
+								</div>
+							</li>						
+						</ul>					
+						</form>
+					</div>												
+			</div>
+			<div class="introduce">
+				<div id="team">
+					<img  src="Images/team.jpg" alt="Team iVietTech">
+				</div>
+				<div id="introduce_iv">
+					<a href="#"><img src="Images/logo_iviettech.png" alt="Logo iVietTech"></a>
+					<h4>GIỚI THIỆU!</h4>
+					<p>Trải qua nhiều năm làm việc trong ngành phần mềm, hiểu được thực trạng nhu cầu nhân lực của ngành, nhóm chuyên gia trong ngành đã thành lập Trung tâm đào tạo Lập trình viên chuyên nghiệp iVietTech với mong muốn thu hẹp khoảng cách giữa nhà trường và doanh nghiệp, tạo cơ hội việc làm cho các bạn trẻ đã, đang và sẽ theo học ngành CNTT.</p>
+					<button><a href="">Xem thêm</a></button>
+				</div>
+				<div id="connect">
+					<a id="img_connect" href="#"><img  src="Images/connect.png" alt="Kết nối với chúng tôi"></a>
+					<a id="p_connect" href="#"><p>Kết Nối Với Chúng Tôi</p></a>
+					<a  href="https://www.facebook.com/hoclaptrinh.iviettech/" target="blank"><img id="img_fb" src="Images/fb_iviettech.png" alt="Facebook iviettech"></a>
+				</div>
+			</div>
+			<div class="schedule">
+				<div id="left_schedule">
+					<a id="img_kgiang" href="#"><img src="Images/icon_kg.png" alt="Lịch khai giảng"></a>
+					<a id="b_khaigiang" href="#"><b>LỊCH KHAI GIẢNG</b></a>
+					<ul>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/android.jpg " alt="Lập trình android"></a>
+								<a class="a_android" href="#"><p>Lập trình Android</p></a>
+								<p >Ngày khai giảng:22-03-2021</p>
+								<p>Lịch học: Tối 2-4-6</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/ltvcn.jpg " alt="Lập trình viên chuyên nghiệp"></a>
+								<a class="a_android" href="#"><p>Lập trình viên chuyên nghiệp</p></a>
+								<p >Ngày khai giảng:22-03-2021</p>
+								<p>Lịch học: Tối 2-4-6</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/php.jpg " alt="Lập trình web với PHP & Lavarel"></a>
+								<a class="a_android" href="#"><p>Lập trình web với PHP & Lavarel</p></a>
+								<p >Ngày khai giảng:22-03-2021</p>
+								<p>Lịch học: Tối 3-5-7</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/ktmp.jpg " alt="Kiểm thử phần mềm"></a>
+								<a class="a_android" href="#"><p>Kiểm thử phần mềm</p></a>
+								<p >Ngày khai giảng:12-04-2021</p>
+								<p>Lịch học: Tối 2-4-6</p>
+							</div>
+						</li>	
+					</ul>
+				</div>
+				<div id="center_schedule">
+					<ul>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/Front_end.png " alt="Lập trình Front-End"></a>
+								<a class="a_android" href="#"><p>Lập trình Front-End</p></a>
+								<p >Ngày khai giảng:30-03-2021</p>
+								<p>Lịch học: Tối 3-5-7</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/java.jpg " alt="Lập trình java từ A-Z"></a>
+								<a class="a_android" href="#"><p>Lập trình java từ A-Z</p></a>
+								<p >Ngày khai giảng:06-04-2021</p>
+								<p>Lịch học: Tối 3-5-7</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/BA.png " alt="Phân tích nghiệp vụ"></a>
+								<a class="a_android" href="#"><p>Phân tích nghiệp vụ(BA)</p></a>
+								<p >Ngày khai giảng:29-03-2021</p>
+								<p>Lịch học: Tối 2-4-6</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc">
+								<a class="img_schedule" href="#"><img src="Images/AI.jpg " alt="Kỹ sư trí tuệ nhân tạo"></a>
+								<a class="a_android" href="#"><p>Kỹ sư trí tuệ nhân tạo(AI Engineer)</p></a>
+								<p >Ngày khai giảng:20-04-2021</p>
+								<p>Lịch học: Tối 2-4-6</p>
+							</div>
+						</li>		
+					</ul>
+				</div>
+				<div id="right_schedule">	
+					<a id="img_khoc" href="#"><img src="Images/khoa_hoc.png" alt="Các khóa học"></a>
+					<a id="b_khoc" href="#"><b>CÁC KHÓA HỌC</b></a>
+					<ul>
+						<li >
+							<div class="khoahoc1">
+								<a class="img_khoc" href="#"><img src="Images/lt_c.png " alt="Lập trình cơ bản"></a>
+								<a class="a_android" href="#"><p>Lập trình cơ bản</p></a>
+								
+								<p >Ngày khai giảng:05-04-2021</p>
+								<p >Thời gian:1 tháng</p>
+								<p>Suất học: Tối 2-4-6</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc1">
+								<a class="img_khoc" href="#"><img src="Images/tk_noithat.png " alt="Thiết kế nội thất"></a>
+								<a class="a_android" href="#"><p>Thiết kế nội thất</p></a>				
+								<p >Ngày khai giảng:20-04-2021</p>
+								<p >Thời gian:6 tháng</p>
+								<p>Suất học: Tối 3-5-7</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc1">
+								<a class="img_khoc" href="#"><img src="Images/tk_dohoa.png " alt="Thiết kế đồ họa"></a>
+								<a class="a_android" href="#"><p>Thiết kế đồ họa</p></a>
+								<p >Ngày khai giảng:22-03-2021</p>
+								<p >Thời gian:6 tháng</p>
+								<p>Suất học: Tối 2-4-6</p>
+							</div>
+						</li>
+						<li >
+							<div class="khoahoc1">
+								<a class="img_khoc" href="#"><img src="Images/ui.jpg " alt="Thiết kế UI/UX"></a>
+								<a class="a_android" href="#"><p>Thiết kế UI/UX</p></a>				
+								<p >Ngày khai giảng:22-03-2021</p>
+								<p >Thời gian:6 tháng</p>
+								<p>Lịch học: Tối 3-5-7</p>
+							</div>
+						</li>		
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="ft_information">
+				<p><b>Địa chỉ:</b> 92 Quang Trung, Q.Hải Châu, TP.Đà Nẵng - <b>Điện thoại:</b> 02363 888 579</p>
+				<p><b>Email:</b> contact@iviettech.vn</p>
+			</div>
+			<div id="license">
+				<p>Bản quyền thuộc về iVietTech</p>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
